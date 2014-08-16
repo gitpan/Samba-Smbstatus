@@ -29,4 +29,4 @@ resources:
   homepage: http://blog.laufeyjarson.com
   license: http://www.perlfoundation.org/artistic_license_2_0
   repository: https://github.com/laufeyjarson/samba-smbstatus.git
-version: 0.00_01
+version: '0.01'

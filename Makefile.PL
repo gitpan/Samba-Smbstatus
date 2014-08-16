@@ -1,7 +1,7 @@
 use 5.006;
 use strict;
 use warnings FATAL => 'all';
-use inc::Module::Install;
+use inc::Module::Install 0.78;;
 
 name     'Samba-Smbstatus';
 all_from 'lib/Samba/Smbstatus.pm';
@@ -36,7 +36,5 @@ requires_external_bin 'smbstatus';
 
 install_as_cpan;
 auto_install;
-
-manifest_skip;
 
 WriteAll;
